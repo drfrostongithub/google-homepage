@@ -41,10 +41,22 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 1%;
 }
-#searchBut{
+#search, #nice{
 display: block;
 margin-left: auto;
 margin-right: auto;
+border-radius: 2px;
+border: none;
+background-color: #f2f2f2;
+min-width: 54px;
+padding: 0 16px;
+color: #757575;
+height: 36px;
+cursor: default;
+font-family: arial, sans-serif;
+font-size: small;
+font-weight: bold;
+position: relative;
 }
 #navbot{
 display: flex;
