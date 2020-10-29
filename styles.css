@@ -1,14 +1,14 @@
 body{
   background-color: white;
 }
-#nav {
+.nav {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .right{
   display: inline;
@@ -52,16 +52,18 @@ li a:hover {
   border: none;
 }
 .button {
-  display: inline;
   margin: 0 2px 0 2px;
   cursor: default;
-  align-items: center;
+}
+.button:hover {
+  margin: 0 2px 0 2px;
+  background-color: antiquewhite;
 }
 .search-buttons {
   display: flex;
   justify-content: center;
 }
-#navbot{
+.navbot{
   display: flex;
   list-style-type: none;
   margin: 0;
