@@ -17,7 +17,7 @@ body{
   display: inline;
 }
 .push{
-margin-left: auto;
+  margin-left: auto;
 }
 li a {
   display: block;
@@ -30,49 +30,45 @@ li a:hover {
   background-color:whitesmoke;
 }
 #logo {
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
 }
-#search {
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 1%;
+.searchBar {
+  display: block;
+  margin: 2% auto 2% auto;
 }
-<<<<<<< HEAD
-#searchBut{
-display: block;
-margin-left: auto;
-margin-right: auto;
-=======
-#search, #nice{
-display: block;
-margin-left: auto;
-margin-right: auto;
-border-radius: 2px;
-border: none;
-background-color: #f2f2f2;
-min-width: 54px;
-padding: 0 16px;
-color: #757575;
-height: 36px;
-cursor: default;
-font-family: arial, sans-serif;
-font-size: small;
-font-weight: bold;
-position: relative;
->>>>>>> a25757f838826eb00591b7b02277c56cfae34c52
+.bar-button-common {
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  min-width: 54px;
+  color: #757575;
+  height: 36px;
+  padding: 0 16px;
+  font-family: arial, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  border: none;
+}
+.button {
+  display: inline;
+  margin: 0 2px 0 2px;
+  cursor: default;
+  align-items: center;
+}
+.search-buttons {
+  display: flex;
+  justify-content: center;
 }
 #navbot{
-display: flex;
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color:whitesmoke;
-position: fixed;
-bottom: 0;
-width: 100%;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:whitesmoke;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
